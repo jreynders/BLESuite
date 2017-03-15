@@ -10,8 +10,8 @@ Build-Depends: python-all-dev,
 	       dh-python,
 	       pkg-config,
 	       libglib2.0-dev,
-	       libboost-python1.55-dev,
-	       libboost-thread1.55-dev,
+	       libboost-python-dev (>= 1.55),
+	       libboost-thread-dev (>= 1.55),
 	       libbluetooth-dev (>= 4.101)
 Standards-Version: 3.9.6
 Homepage: https://bitbucket.org/OscarAcena/pygattlib
